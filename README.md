@@ -14,6 +14,16 @@ The proteins belong to one of 5 classes:
 * imU: inner membrane, non cleavable signal sequence
 * om: outer membrane
 
+The input features are described as follows:
+
+* mcg: McGeoch’s method for signal sequence recognition
+* gvh: von Heijne’s method for signal sequence recognition
+* lip: von Heijne’s Signal Peptidase II consensus sequence score
+* chg: Presence of charge on N-terminus of predicted lipoproteins
+* aac: Score of discriminant analysis of the amino acid content of outer membrane and periplasmic proteins
+* alm1: Score of the ALOM membrane-spanning region prediction program
+* alm2: Score of ALOM program after excluding putative cleavable signal regions from sequence
+
 ### Code
 
 My code in Python 3 can be viewed [here](https://github.com/agolikova/Multi-class-classification-model/blob/main/Model.ipynb).
