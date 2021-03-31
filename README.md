@@ -13,7 +13,7 @@ The proteins belong to one of 5 classes:
 * cp: cytoplasm
 * im: inner membrane without signal sequence
 * pp: periplasm
-* imU: inner membrane, non cleavable signal sequence
+* imU: inner membrane, non-cleavable signal sequence
 * om: outer membrane
 
 The input features are described as follows:
@@ -34,14 +34,18 @@ This project consisted of 2 parts:
 
 * Explore *E. coli* dataset
 * Define a test harness for evaluating candidate models
-* Evaluates the following ML models: 
+* Evaluate the following ML models: 
   * Random Forest
   * k-Nearest Neighbours
   * Linear Discriminant Analysis
   * Support Vector Machine
 
+This part of the code in Python 3 can be viewed [here](https://github.com/agolikova/Multi-class-classification-model/blob/main/Evaluating%20ML%20models.ipynb).
+
 #### Train & test data using chosen model
 
 * Use model identified as having the best performance during model evaluation (random forest classifier)
-* Trained & test model on *E. coli* dataset
+* Train & test model on *E. coli* dataset
 * Visualize results of prediction as a confusion matrix
+
+This part of the code in Python 3 can be viewed [here](https://github.com/agolikova/Multi-class-classification-model/blob/main/Training%20%26%20testing%20data%20using%20chosen%20model.ipynb).
