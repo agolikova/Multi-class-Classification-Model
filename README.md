@@ -28,4 +28,10 @@ The input features are described as follows:
 
 ### Code
 
+This project consisted of 2 parts:
+
+#### Evaluating Machine Learning models
+
+
+#### Training & testing data using chosen model
 
