@@ -1,4 +1,4 @@
-# Multi-class classification model
+# Multi-class Classification Model
 
 The aim of this project is to classify *E. coli* proteins using the amino acid sequences in their cell localization sites. This can be used to predict how a protein will bind to a cell based on its chemical composition before it is folded.
 
@@ -30,8 +30,18 @@ The input features are described as follows:
 
 This project consisted of 2 parts:
 
-#### Evaluating Machine Learning models
+#### Evaluate machine learning models
 
+* Explore *E. coli* dataset
+* Define a test harness for evaluating candidate models
+* Evaluates the following ML models: 
+  * Random Forest
+  * k-Nearest Neighbours
+  * Linear Discriminant Analysis
+  * Support Vector Machine
 
-#### Training & testing data using chosen model
+#### Train & test data using chosen model
 
+* Use model identified as having the best performance during model evaluation (random forest classifier)
+* Trained & test model on *E. coli* dataset
+* Visualize results of prediction as a confusion matrix
