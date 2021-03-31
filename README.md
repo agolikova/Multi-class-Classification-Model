@@ -28,4 +28,4 @@ The input features are described as follows:
 
 ### Code
 
-My code in Python 3 can be viewed [here](https://github.com/agolikova/Multi-class-classification-model/blob/main/Model.ipynb).
+
